@@ -11,7 +11,7 @@ public class LogBackConfig {
     private final static Logger log = LoggerFactory.getLogger(LogBackConfig.class);
     public static void main(String[] args) {
         SpringApplication.run(LogBackConfig.class, args);
-        log.warn("project has started");
+        log.info("project has started");
     }
 
 }
